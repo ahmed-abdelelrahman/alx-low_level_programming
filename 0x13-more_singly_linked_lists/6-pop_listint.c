@@ -6,9 +6,10 @@
  *
  * Return: the data inside the elements that was deleted,
  * or 0 if the list is empty
+ * return function
  */
 int pop_listint(listint_t **head)
-//function pop_listint
+
 {
  listint_t *temp;
  int num;

@@ -5,10 +5,11 @@
  * @head: first node in the linked list
  *
  * Return: resulting sum
+ * return function
  */
 int sum_listint(listint_t *head)
 
-//function sum_listint
+
 {
  int sum = 0;
  listint_t *temp = head;

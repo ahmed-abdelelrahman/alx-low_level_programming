@@ -5,9 +5,10 @@
  * @head: pointer to the first node in the list
  *
  * Return: pointer to the first node in the new list
+ * return function
  */
 listint_t *reverse_listint(listint_t **head)
-//function lisint_t
+
 {
  listint_t *prev = NULL;
  listint_t *next = NULL;

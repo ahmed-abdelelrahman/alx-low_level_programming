@@ -5,9 +5,10 @@
  * @h: pointer to the first node in the linked list
  *
  * Return: number of elements in the freed list
+ * return function
  */
 size_t free_listint_safe(listint_t **h)
-// function free_listint_safe
+
 {
  size_t len = 0;
  int diff;

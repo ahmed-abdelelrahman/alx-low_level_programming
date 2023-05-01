@@ -3,9 +3,10 @@
 /**
  * free_listint2 - frees a linked list
  * @head: pointer to the listint_t list to be freed
+ * return function
  */
 void free_listint2(listint_t **head)
-// free_listint2 function
+
 {
  listint_t *temp;
 
